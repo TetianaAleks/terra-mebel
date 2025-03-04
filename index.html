@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/media.css" />
+
+    <title>Terra mebel</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header__wrap">
+        <div class="header__container">
+          <div class="logo">
+            <div class="logo__size">
+              <img src="img/logo/logo.png" alt="Logo" />
+            </div>
+            <p>
+              Terra <br />
+              mebel
+            </p>
+          </div>
+          <nav class="nav">
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#catalog">Catalog</a></li>
+              <li><a href="#reviews">Reviews</a></li>
+              <li><a href="#questions">FAQ</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__contacts">
+          <a href="tel:+48 800 123 456" target="_blank" class="header__phone"
+            >+48 800 123 456</a
+          >
+          <button class="phone__link" data-fancybox data-src="#callback-modal">
+            Request a Callback
+          </button>
+        </div>
+        <button class="burger__btn">
+          <span class="burger__icon"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="intro">
+        <div class="wrapper intro__wrap">
+          <div class="socials">
+            <a
+              href="https://www.youtube.com/"
+              class="social__link"
+              target="_blank"
+            >
+              <img
+                src="img/intro/youtube-fill.svg"
+                class="social__img"
+                alt="Youtube"
+              />
+            </a>
+            <a
+              href="https://www.facebook.com/"
+              class="social__link"
+              target="_blank"
+            >
+              <img
+                src="img/intro/facebook-fill.svg"
+                class="social__img"
+                alt="Facebook"
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              class="social__link"
+              target="_blank"
+            >
+              <img
+                src="img/intro/instagram-line.svg"
+                class="social__img"
+                alt="Instagram"
+              />
+            </a>
+          </div>
+          <div class="slider">
+            <div class="intro__slider swiper">
+              <div class="swiper-wrapper">
+                <div class="intro__slide swiper-slide">
+                  <div class="intro__img">
+                    <img src="img/intro/1.jpg" alt="Chair" />
+                  </div>
+                </div>
+                <div class="intro__slide swiper-slide">
+                  <div class="intro__img">
+                    <img src="img/intro/2.webp" alt="Chair" />
+                  </div>
+                </div>
+                <div class="intro__slide swiper-slide">
+                  <div class="intro__img">
+                    <img src="img/intro/3.jpg" alt="Chair" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="intro__slider-arrows">
+              <a
+                href="#prev"
+                class="slider__arrow intro__slider-arrow intro__slider-arrow-prev"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#A27B5C"
+                >
+                  <path
+                    d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="#next"
+                class="slider__arrow intro__slider-arrow intro__slider-arrow-next"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#A27B5C"
+                >
+                  <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="intro__order">
+            <div class="intro__box">
+              <h1>
+                We Manufacture <br />
+                Tables and Chairs
+              </h1>
+              <p class="intro__subtitle">
+                Made exclusively from eco-friendly materials for home and
+                office. Next-day delivery available.
+              </p>
+            </div>
+            <div class="intro__button-box">
+              <button
+                class="intro__button btn"
+                data-fancybox
+                data-src="#callback-modal"
+              >
+                Order Furniture
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="wrapper">
+          <div class="about__block">
+            <h2>About Us</h2>
+            <p>
+              We are one of the leading manufacturers of tables and chairs for
+              homes and offices since 2009. All our furniture is primarily
+              designed in loft and minimalist styles, transforming interiors,
+              and made exclusively from eco-friendly materials.
+            </p>
+            <p>
+              In our production, we use modern equipment, which significantly
+              improves the quality of our furniture and enhances our
+              customer-oriented approach.
+            </p>
+          </div>
+
+          <div class="about__qualities">
+            <div class="about__quality">
+              <div class="about__title">
+                <img src="img/about/hammer-line.svg" alt="Hammer" />
+                <h3>Fast Production</h3>
+              </div>
+              <p class="about__text">
+                We have our own workshop, warehouse, and logistics. This allows
+                us to operate independently of third-party carriers and deliver
+                orders on the same day within.
+              </p>
+            </div>
+            <div class="about__quality">
+              <div class="about__title">
+                <img src="img/about/tree-line.svg" alt="Tree" />
+                <h3>
+                  Eco-Friendly <br />
+                  Materials
+                </h3>
+              </div>
+              <p class="about__text">
+                All our tables and chairs are made from Angara pine, birch, and
+                beech, making them safe for your children and pets.
+              </p>
+            </div>
+            <div class="about__quality">
+              <div class="about__title">
+                <img src="img/about/shield-check-line.svg" alt="Shield" />
+                <h3>
+                  1-Year Warranty <br />
+                  on All Furniture
+                </h3>
+              </div>
+              <p class="about__text">
+                We offer an unconditional 1-year warranty on all our furniture.
+                Even if you order just a single chair, the warranty still
+                applies.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <div class="wrapper">
+          <div class="catalog__header">
+            <h2>Catalog</h2>
+            <a
+              href="https://www.instagram.com/"
+              class="catalog__instagram-info"
+              target="_blank"
+            >
+              <img src="img/intro/instagram-line.svg" alt="Instagram" />
+              <p>View our work on Instagram</p>
+            </a>
+          </div>
+
+          <div class="catalog__slider swiper">
+            <div class="swiper-wrapper">
+              <div class="catalog__slide swiper-slide">
+                <div class="catalog__card">
+                  <div class="catalog__img">
+                    <img src="img/catalog/1.jpg" alt="Chair 1" />
+                  </div>
+                  <div class="catalog__price">2 650$</div>
+                  <div class="catalog__info">
+                    <span class="catalog__title">Chair "Frank"</span>
+                    <span class="catalog__subtitle"
+                      >Production time: 3 days</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="catalog__slide swiper-slide catalog__slide-second">
+                <div class="catalog__card">
+                  <div class="catalog__img">
+                    <img src="img/catalog/2.jpg" alt="Chair 2" />
+                  </div>
+                  <div class="catalog__price">7 490$</div>
+                  <div class="catalog__info">
+                    <span class="catalog__title">Set "Olympus"</span>
+                    <span class="catalog__subtitle"
+                      >Production time: 7 days</span
+                    >
+                  </div>
+                </div>
+                <div class="catalog__card">
+                  <div class="catalog__img">
+                    <img src="img/catalog/3.jpg" alt="Chair 3" />
+                  </div>
+                  <div class="catalog__price">3 450$</div>
+                  <div class="catalog__info">
+                    <span class="catalog__title">Chair "Dark"</span>
+                    <span class="catalog__subtitle"
+                      >Production time: 2 days</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="catalog__slide swiper-slide">
+                <div class="catalog__card">
+                  <div class="catalog__img">
+                    <img src="img/catalog/4.jpg" alt="Chair 1" />
+                  </div>
+                  <div class="catalog__price">9 850$</div>
+                  <div class="catalog__info">
+                    <span class="catalog__title">
+                      Set of Chair and Table "Rumi"
+                    </span>
+                    <span class="catalog__subtitle"
+                      >Production time: 7 days</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="catalog__slide swiper-slide">
+                <div class="catalog__card">
+                  <div class="catalog__img">
+                    <img src="img/catalog/1.jpg" alt="Chair 1" />
+                  </div>
+                  <div class="catalog__price">2 650$</div>
+                  <div class="catalog__info">
+                    <span class="catalog__title">Chair "Frank"</span>
+                    <span class="catalog__subtitle"
+                      >Production time: 3 days</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="catalog__slide swiper-slide catalog__slide-second">
+                <div class="catalog__card">
+                  <div class="catalog__img">
+                    <img src="img/catalog/2.jpg" alt="Chair 2" />
+                  </div>
+                  <div class="catalog__price">7 490$</div>
+                  <div class="catalog__info">
+                    <span class="catalog__title">Set "Olympus"</span>
+                    <span class="catalog__subtitle"
+                      >Production time: 7 days</span
+                    >
+                  </div>
+                </div>
+                <div class="catalog__card">
+                  <div class="catalog__img">
+                    <img src="img/catalog/3.jpg" alt="Chair 3" />
+                  </div>
+                  <div class="catalog__price">3 450$</div>
+                  <div class="catalog__info">
+                    <span class="catalog__title">Chair "Dark"</span>
+                    <span class="catalog__subtitle"
+                      >Production time: 2 days</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="catalog__navigation">
+            <div class="catalog__slider-arrows">
+              <a
+                href="#prev"
+                class="slider__arrow catalog__slider-arrow catalog__slider-arrow-prev"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#A27B5C"
+                >
+                  <path
+                    d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
+                  ></path>
+                </svg>
+              </a>
+              <div class="catalog__pagination">
+                <div class="catalog__swiper-pagination"></div>
+              </div>
+              <a
+                href="#next"
+                class="slider__arrow catalog__slider-arrow catalog__slider-arrow-next"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#A27B5C"
+                >
+                  <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="order">
+        <div class="wrapper">
+          <h2>How to Order?</h2>
+          <div class="order__steps">
+            <div class="order__step">
+              <div class="order__number">01</div>
+              <h3>Request</h3>
+              <p class="order__subtitle">
+                Leave a request on the website or call us at
+                <a href="tel:+48 800 123 456" target="_blank"
+                  >+48 800 123 456</a
+                >
+              </p>
+            </div>
+            <div class="order__step">
+              <div class="order__number">02</div>
+              <h3>Call with the Manager</h3>
+              <p class="order__subtitle">
+                Within 15 minutes, our manager will call you back and schedule
+                the delivery time.
+              </p>
+            </div>
+            <div class="order__step">
+              <div class="order__number">03</div>
+              <h3>Delivery</h3>
+              <p class="order__subtitle">
+                The next day, we will deliver the furniture directly to your
+                home (apartment).
+              </p>
+            </div>
+          </div>
+          <form class="order__form">
+            <input type="text" name="name" id="name" placeholder="Your Name" />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Your Phone"
+            />
+            <div class="order__submit-block">
+              <button class="btn">Submit Request</button>
+              <p>
+                By clicking the button, you consent to the processing of
+                <a
+                  href="https://usercentrics.com/knowledge-hub/what-is-dpa-data-processing-agreement/"
+                  target="_blank"
+                  >personal data</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="usage">
+        <div class="usage__background">
+          <img src="img/usage/1.jpg" alt="Chair" />
+        </div>
+        <div class="wrapper usage__wrapper">
+          <div class="usage__block">
+            <h2>Who is the furniture made from eco-friendly materials for?</h2>
+            <p>
+              Eco-style <b>looks great</b> in urban apartments, hotels, hostels,
+              cafes, offices, and creative spaces. Furniture
+              <b>easily blends</b> with loft, Scandinavian, nautical, tropical,
+              ethnic, high-tech, or minimalist styles.
+            </p>
+            <p>
+              People who <b>value</b> a connection with nature, an eco-friendly
+              lifestyle, and <b>strive</b> to have a positive impact on the
+              environment choose furniture made from eco-friendly materials.
+              Eco-style is currently <b>on the rise</b> and always relevant, as
+              it reflects the natural essence of all living things.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="consultation">
+        <div class="wrapper">
+          <div class="consultation__header">
+            <h2>Get a Free Consultation with a Designer</h2>
+            <p>
+              Leave a request and our designer will call you back within 15
+              minutes. They will provide you with a free consultation and help
+              you choose furniture for your interior in a personal meeting.
+            </p>
+          </div>
+          <form class="order__form">
+            <input type="text" name="name" id="name" placeholder="Your Name" />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Your Phone"
+            />
+            <div class="order__submit-block">
+              <button class="btn">I Want a Consultation</button>
+              <p>
+                By clicking the button, you consent to the processing of
+                <a
+                  href="https://usercentrics.com/knowledge-hub/what-is-dpa-data-processing-agreement/"
+                  target="_blank"
+                  >personal data</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <div class="wrapper">
+          <h2>Reviews from Our Customers</h2>
+
+          <div class="reviews__slider swiper">
+            <div class="swiper-wrapper">
+              <div class="reviews__slide swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__header">
+                    <div class="reviews__img">
+                      <img src="img/reviews/1.jpg" alt="Person" />
+                    </div>
+                    <div class="reviews__title">
+                      <div class="reviews__name">Elena Müller</div>
+                      <div class="reviews__social">
+                        <a
+                          href="https://www.instagram.com/"
+                          class="reviews__social-img"
+                          target="_blank"
+                        >
+                          <img
+                            src="img/intro/instagram-line.svg"
+                            alt="Instagram"
+                          />
+                        </a>
+                        <a
+                          href="https://www.instagram.com/"
+                          class="reviews__social-name"
+                          target="_blank"
+                          >@elenam_123</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__text">
+                    <p>
+                      I decided to update the furniture in my kitchen and
+                      reached out to this company because I wanted their
+                      furniture made from eco-friendly materials. The store
+                      staff helped me choose tables and chairs that perfectly
+                      fit the kitchen's interior.
+                    </p>
+                    <p class="more-text">
+                      I decided to update the furniture in my kitchen and
+                      reached out to this company because I wanted their
+                      furniture made from eco-friendly materials. The store
+                      staff helped me choose tables and chairs that perfectly
+                      fit the kitchen's interior.
+                    </p>
+                    <button class="btn-more">Read Review</button>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews__slide swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__header">
+                    <div class="reviews__img">
+                      <img src="img/reviews/2.avif" alt="Person" />
+                    </div>
+                    <div class="reviews__title">
+                      <div class="reviews__name">Sophie Johnson</div>
+                      <div class="reviews__social">
+                        <a
+                          href="https://www.facebook.com/"
+                          class="reviews__social-img"
+                          target="_blank"
+                        >
+                          <img
+                            src="img/intro/facebook-fill.svg"
+                            alt="Facebook"
+                          />
+                        </a>
+                        <a
+                          href="https://www.facebook.com/"
+                          class="reviews__social-name"
+                          target="_blank"
+                          >@elegant.sophie</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__text">
+                    <p>
+                      All the furniture arrived on time, without a single
+                      scratch. Special mention goes to the chairs and tables
+                      that the designers picked out for our interior. They look
+                      absolutely fantastic. Thank you to the company for the
+                      high-quality furniture!
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews__slide swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__header">
+                    <div class="reviews__img">
+                      <img src="img/reviews/1.jpg" alt="Person" />
+                    </div>
+                    <div class="reviews__title">
+                      <div class="reviews__name">Elena Müller</div>
+                      <div class="reviews__social">
+                        <a
+                          href="https://www.instagram.com/"
+                          class="reviews__social-img"
+                          target="_blank"
+                        >
+                          <img
+                            src="img/intro/instagram-line.svg"
+                            alt="Instagram"
+                          />
+                        </a>
+                        <a
+                          href="https://www.instagram.com/"
+                          class="reviews__social-name"
+                          target="_blank"
+                          >@elenam_123</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__text">
+                    <p>
+                      I decided to update the furniture in my kitchen and
+                      reached out to this company because I wanted their
+                      furniture made from eco-friendly materials. The store
+                      staff helped me choose tables and chairs that perfectly
+                      fit the kitchen's interior.
+                    </p>
+                    <p class="more-text">
+                      I decided to update the furniture in my kitchen and
+                      reached out to this company because I wanted their
+                      furniture made from eco-friendly materials. The store
+                      staff helped me choose tables and chairs that perfectly
+                      fit the kitchen's interior.
+                    </p>
+                    <button class="btn-more">Read Review</button>
+                  </div>
+                </div>
+              </div>
+              <div class="reviews__slide swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__header">
+                    <div class="reviews__img">
+                      <img src="img/reviews/2.avif" alt="Person" />
+                    </div>
+                    <div class="reviews__title">
+                      <div class="reviews__name">Sophie Johnson</div>
+                      <div class="reviews__social">
+                        <a
+                          href="https://www.facebook.com/"
+                          class="reviews__social-img"
+                          target="_blank"
+                        >
+                          <img
+                            src="img/intro/facebook-fill.svg"
+                            alt="Facebook"
+                          />
+                        </a>
+                        <a
+                          href="https://www.facebook.com/"
+                          class="reviews__social-name"
+                          target="_blank"
+                          >@elegant.sophie</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reviews__text">
+                    <p>
+                      All the furniture arrived on time, without a single
+                      scratch. Special mention goes to the chairs and tables
+                      that the designers picked out for our interior. They look
+                      absolutely fantastic. Thank you to the company for the
+                      high-quality furniture!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews__navigation">
+            <div class="reviews__slider-arrows">
+              <a
+                href="#prev"
+                class="slider__arrow reviews__slider-arrow reviews__slider-arrow-prev"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#A27B5C"
+                >
+                  <path
+                    d="M7.82843 10.9999H20V12.9999H7.82843L13.1924 18.3638L11.7782 19.778L4 11.9999L11.7782 4.22168L13.1924 5.63589L7.82843 10.9999Z"
+                  ></path>
+                </svg>
+              </a>
+              <div class="reviews__pagination">
+                <div class="reviews__swiper-pagination"></div>
+              </div>
+              <a
+                href="#next"
+                class="slider__arrow reviews__slider-arrow reviews__slider-arrow-next"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="#A27B5C"
+                >
+                  <path
+                    d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="questions" id="questions">
+        <div class="questions__img"></div>
+        <div class="wrapper questions__wrapper">
+          <div class="questions__container">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="questions__block">
+              <div class="questions__header">
+                <div class="questions__title">
+                  What is your furniture made of?
+                </div>
+                <div class="questions__display">
+                  <img src="img/questions/add-line.svg" alt="Plus" />
+                </div>
+              </div>
+              <p class="questions__description">
+                Our furniture is made only from eco-friendly materials: Angara
+                pine, birch, and beech. It does not contain MDF or pressed
+                boards with toxic glue, which makes all our tables and chairs
+                safe for children and pets.
+              </p>
+            </div>
+
+            <div class="questions__block">
+              <div class="questions__header">
+                <div class="questions__title">
+                  Can I order something other than tables and chairs?
+                </div>
+                <div class="questions__display">
+                  <img src="img/questions/add-line.svg" alt="Plus" />
+                </div>
+              </div>
+              <p class="questions__description">
+                Yes, we also offer other types of furniture and accessories by
+                custom order, including shelves, cabinets, side tables, and much
+                more. You can discuss your requirements with us, and we will do
+                our best to create the perfect piece of furniture for your
+                interior.
+              </p>
+            </div>
+
+            <div class="questions__block">
+              <div class="questions__header">
+                <div class="questions__title">
+                  Where do you deliver furniture?
+                </div>
+                <div class="questions__display">
+                  <img src="img/questions/add-line.svg" alt="Plus" />
+                </div>
+              </div>
+              <p class="questions__description">
+                We deliver furniture across Europe. We work with reliable
+                transport companies to ensure safe and timely delivery. For
+                specific delivery information to your country, please contact
+                us.
+              </p>
+            </div>
+            <div class="questions__block">
+              <div class="questions__header">
+                <div class="questions__title">
+                  Can I return the product if I don't like it?
+                </div>
+
+                <div class="questions__display">
+                  <img src="img/questions/add-line.svg" alt="Plus" />
+                </div>
+              </div>
+              <p class="questions__description">
+                We care about our customers, so we offer a return option within
+                14 days if the product doesn't meet your expectations or if you
+                simply don't like it. The item must be unused and in its
+                original packaging. Please contact us for further details on the
+                return process.
+              </p>
+            </div>
+            <div class="questions__block">
+              <div class="questions__header">
+                <div class="questions__title">Do you assist with assembly?</div>
+                <div class="questions__display">
+                  <img src="img/questions/add-line.svg" alt="Plus" />
+                </div>
+              </div>
+              <p class="questions__description">
+                Yes, we offer furniture assembly services. Our specialists will
+                come and assemble your order at a time that is convenient for
+                you. The assembly cost will be clarified when placing your
+                order. Please contact us for more information.
+              </p>
+            </div>
+            <div class="questions__block">
+              <div class="questions__header">
+                <div class="questions__title">Can I use self-pickup?</div>
+                <div class="questions__display">
+                  <img src="img/questions/add-line.svg" alt="Plus" />
+                </div>
+              </div>
+              <p class="questions__description">
+                Yes, you can choose self-pickup. Once your order is ready, we
+                will contact you to arrange the time and place for pickup.
+                Please confirm the details with our manager when placing your
+                order.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="wrapper wrapper-flex">
+          <div class="contacts__info">
+            <h2>Contacts</h2>
+            <p class="contacts__title">Phone</p>
+            <a class="contacts__subtitle">+48 800 123 456</a>
+            <p class="contacts__title contacts__adress">Address</p>
+            <address class="contacts__subtitle">
+              Warsaw, <br />
+              Marszałkowska Street, 100
+            </address>
+            <p class="contacts__title contacts__email-name">Email</p>
+            <a class="contacts__email">hello@terramebel.com</a>
+          </div>
+
+          <div class="contacts__map" id="map"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="footer__header">
+        <div class="wrapper header__wrap">
+          <div class="header__container">
+            <div class="logo">
+              <div class="logo__size">
+                <img src="img/logo/logo.png" alt="Logo" />
+              </div>
+              <p>
+                Terra <br />
+                mebel
+              </p>
+            </div>
+            <nav>
+              <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#catalog">Catalog</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#questions">FAQ</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="header__contacts">
+            <a href="tel:+48 800 123 456" class="header__phone" target="_blank"
+              >+48 800 123 456</a
+            >
+            <button
+              class="phone__link"
+              data-fancybox
+              data-src="#callback-modal"
+            >
+              Request a Callback
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="footer__policy">
+        <div class="wrapper">
+          <div class="footer__container">
+            <div class="footer__info">@2025 Terra mebel</div>
+
+            <a
+              href="https://usercentrics.com/knowledge-hub/what-is-dpa-data-processing-agreement/"
+              class="footer__data"
+              target="_blank"
+            >
+              Agreement on the processing of personal data
+            </a>
+            <a
+              href="https://policies.google.com/privacy?hl=en-US"
+              class="footer__politic"
+              target="_blank"
+              >Privacy Policy</a
+            >
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgrY1eSeUgwxGxXq9KRbivAHU-GerRL3w&callback=initMap"
+      async
+      defer
+    ></script>
+  </body>
+
+  <div id="callback-modal" style="display: none; max-width: 500px">
+    <h2>Request a Callback</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input
+        type="text"
+        id="name"
+        name="name"
+        placeholder="Enter your name"
+        required
+      />
+
+      <label for="phone">Your Phone:</label>
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="Enter your phone number"
+        required
+      />
+
+      <button type="submit" class="btn modal__submit">Send</button>
+    </form>
+  </div>
+</html>
