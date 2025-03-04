@@ -46,6 +46,7 @@ Terra Mebel is a responsive website for a furniture manufacturer specializing in
 
 ## File Structure  
 
+```plaintext
 terra-mebel/
 ├── css/
 │   ├── styles.css
